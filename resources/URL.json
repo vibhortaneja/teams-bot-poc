@@ -1,0 +1,33 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Container",
+      "id": "121d157d-16cd-c03e-28ec-b3f05328c9bb",
+      "padding": "None",
+      "items": [
+        {
+          "type": "TextBlock",
+          "id": "5eb5a01d-e715-fde6-5d5c-4f039ea0ff87",
+          "text": "Click here to give feedback [Adaptive Cards](https://default.if-staging.haufe.com/#/)",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "id": "b208ad6c-aa3d-bc21-d05c-840abf0c2f77",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "id": "bee0fb4f-873b-24f4-8346-a9a40d6ed300",
+              "title": "Button",
+              "url": "https://default.if-staging.haufe.com/#/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "padding": "None"
+}

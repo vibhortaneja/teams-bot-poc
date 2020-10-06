@@ -1,0 +1,87 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "style": "emphasis",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Instant Feedback",
+          "wrap": true
+        }
+      ],
+      "padding": "Default"
+    },
+    {
+      "type": "Container",
+      "id": "885220a9-5ab1-95dd-5b66-20f42c452fa9",
+      "padding": "Default",
+      "items": [
+        {
+          "type": "TextBlock",
+          "weight": "Bolder",
+          "text": "Whom you want to give feedback?",
+          "wrap": true
+        }
+      ],
+      "separator": true,
+      "spacing": "None"
+    },
+    {
+      "type": "Container",
+      "id": "10017c5a-5ee9-46c5-537a-bdd9ab61225c",
+      "padding": {
+        "top": "None",
+        "bottom": "Default",
+        "left": "Default",
+        "right": "Default"
+      },
+      "items": [
+        {
+          "type": "Input.ChoiceSet",
+          "id": "options",
+          "spacing": "None",
+          "placeholder": "Placeholder text",
+          "choices": [
+            {
+              "title": "Vibhor Taneja",
+              "value": "vibhor.taneja@haufe.com"
+            },
+            {
+              "title": "Saranjeet Kaur",
+              "value": "saranjeet.kaur@haufe.com"
+            },
+            {
+              "title": "Atul Anand",
+              "value": "atul.anand@haufe.com"
+            },
+            {
+              "title": "Ashish Tiwari",
+              "value": "ashish.tiwari@haufe.com"
+            },
+            {
+              "title": "Nitin Rajpal",
+              "value": "nitin.rajpal@haufe.com"
+            }
+          ],
+          "style": "expanded"
+        }
+      ],
+      "spacing": "None"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "id": "submit",
+      "title": "Submit",
+      "data":{
+           "action": "personselector"
+      }
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "padding": "None"
+}
